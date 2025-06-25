@@ -1,0 +1,9 @@
+a=int(input("enter the amount"))
+amt=[500,200,100,50,20,10,2,1]
+dic={}
+for i in amt:
+    if(i<=a):
+        count=a//i
+        dic[i]=count
+        a-=count*i
+print(dic)
