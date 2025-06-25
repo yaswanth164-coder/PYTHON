@@ -1,0 +1,9 @@
+a=10
+for i in range (3,15,2):
+    for j in range(i):
+        a=a+i
+        if(i>12):
+            break
+        else:
+            a=a-2
+    print(a) 
