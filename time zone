@@ -1,0 +1,6 @@
+from datetime import datetime
+import pytz
+a=pytz.timezone("Asia/Kuwait")
+b=datetime.now(a)
+print(b)
+        
