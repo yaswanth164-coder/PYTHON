@@ -1,0 +1,10 @@
+class emp:
+    def set_details(self,name,age):
+        self.name=name
+        self.age=age
+    def display(self):
+        print("name:",self.name)
+        print("age:",self.age)
+s=emp()
+s.set_details( "yash",30)
+s.display()
