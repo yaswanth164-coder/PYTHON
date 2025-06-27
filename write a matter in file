@@ -1,0 +1,4 @@
+file=open("ttttt.txt","w")
+file.write("i like java")
+file.close()
+print("the content written successfully")
