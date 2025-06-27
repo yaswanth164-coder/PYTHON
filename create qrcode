@@ -1,0 +1,8 @@
+import qrcode
+data="yaswanth qr"
+r = qrcode.QRCode()
+r.add_data(data)
+r.make(fit=True)
+a=r.make_image(fill_colour="black",back_colour="white")
+a.save("yash.png")
+print("img is saved ")
